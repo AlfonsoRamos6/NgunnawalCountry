@@ -19,29 +19,36 @@
 }
 
 body{
-    background-color: lightgoldenrodyellow;
+    background-color: lightsalmon;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #333333;
+    background-color: #ffffff;
 }
 
 .navbar a {
-    float: left;
+    float: middle;
     font-size: 1em;
-    color: white;
+    color: #625656;
     text-align: center;
     padding: 1em 1em;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .navbar a:hover {
-    background-color: #2ccbb4;
+    background-color: #be7676;
 }
 
 
 .main-content {
     grid-row-start: 2;
     grid-row-end: 4;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
