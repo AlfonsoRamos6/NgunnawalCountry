@@ -14,12 +14,12 @@
     grid-row-start: span 2;
 }
 
-.grid-container > div {
-    background-color: rgba(0,0,0, 0.2);
-}
-
 body{
     background-color: lightsalmon;
+}
+
+footer {
+    margin-top: auto;
 }
 
 .navbar {
@@ -28,16 +28,16 @@ body{
 }
 
 .navbar a {
-    float: middle;
-    font-size: 1em;
-    color: #625656;
+    float: none;
+    font-size: 1.35em;
+    color: #000000;
     text-align: center;
     padding: 1em 1em;
     text-decoration: underline;
 }
 
 .navbar a:hover {
-    background-color: #be7676;
+    background-color: #ff6464;
 }
 
 
@@ -50,6 +50,25 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
 }
 
+#container {
+    height: 50px;
+    width: 210px;
+    border: 1px solid black;
+    position: relative;
+    top: -153px;
+    right:-1120px;
+}
+
+#label {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 5px;
+    width: 10px;
+    background-color: white;
+    text-align: center;
+
+}
