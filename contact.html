@@ -14,7 +14,7 @@
     <img src="images/logo.png" style="width:150px;height:150px;" >
     <a href="ngunnawal.html">Home</a>
     <a href="history.html">History</a>
-    <img src="images/Banner.png" style="width:520px; height:140px;" >
+    <img src="images/Banner.png" style="width:520px; height:145px;" >
     <a href="gallery.html">Gallery</a>
     <a href="contact.html">Contact Us</a>
 
@@ -23,22 +23,39 @@
     </div>
 </div class>
 
+    <form onsubmit="return false">
+        <p>
+            <label for="first">First Name</label>
+            <input type='text' id="first" name='first'>
+        </p>
+        <br>
+        <p>
+            <label for="last">Last Name</label>
+            <input type='text' id="last" name='last'>
+        </p>
+        <br>
+        <p>
+            <label for="age">Enter Age</label>
+            <input type='number' id="age" name='age'>
+        </p>
+        <br>
+        <p>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email">
+        </p>
+        <br>
+        <p>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        </p>
+        <button onclick="authentication(this.form)">Log In</button>
+    </form>
 
-<div class="grid-container"> <!-- Overall Layout -->
-    <div class="full-width">
-        <p style="color:red;font-size:46px;text-align:center"
-        <h1>Contact Us</h1>
-    </div>
-    <div class="main-content center">
-        <!--Cell 1-->
-    </div>
-    <div class="full-width">
-        <!--Cell 2-->
-    </div>
-    <div class="full-width">
-        <!--Cell 3-->
-    </div>
-</divclass>
+</form>
 
     <html>
 

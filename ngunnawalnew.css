@@ -72,3 +72,9 @@ footer {
     text-align: center;
 
 }
+
+form {
+    color: #2a0e0e;
+    font-size: large;
+    background-color: rgb(137, 217, 133);
+}
